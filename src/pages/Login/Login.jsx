@@ -26,7 +26,6 @@ export default function Login() {
         url: "https://rent-car-appx.herokuapp.com/admin/auth/login",
         data: dataLogin,
       });
-      // console.log(res.data);
 
       if (res.status === 201 && res.data.role === "admin") {
         localStorage.setItem("access_token", res.data.access_token);

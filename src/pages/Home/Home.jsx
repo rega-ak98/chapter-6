@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import SidebarAdmin from "../../components/SidebarAdmin/SidebarAdmin";
-import NavbarAdmin from "../../components/NavbarAdmin/NavbarAdmin";
+import NavbarUser from "../../components/NavbarUser/NavbarUser";
 import FI from "../../assets/images/icon/fi.png";
 import Sort from "../../assets/images/icon/fi_sort.png";
 import "./Home.css";
@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <div className="container-fluid p-0">
-        <NavbarAdmin logout={() => handleLogout()} />
+        <NavbarUser logout={() => handleLogout()} />
 
         <SidebarAdmin />
 

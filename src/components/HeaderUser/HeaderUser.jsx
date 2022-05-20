@@ -5,7 +5,7 @@ import "./HeaderUser.css";
 function HeaderUser() {
   return (
     <>
-      <section className="hero py-5" id="hero">
+      <section className="hero" id="hero" style={{marginTop: "4%",}}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-12 align-self-center mt-5">
